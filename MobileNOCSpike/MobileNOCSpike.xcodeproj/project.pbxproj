@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		46168A872229816400028E05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46168A862229816400028E05 /* AppDelegate.swift */; };
-		46168A892229816400028E05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46168A882229816400028E05 /* ViewController.swift */; };
-		46168A8C2229816400028E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46168A8A2229816400028E05 /* Main.storyboard */; };
+		46168A892229816400028E05 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46168A882229816400028E05 /* HomeVC.swift */; };
+		46168A8C2229816400028E05 /* HomeSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46168A8A2229816400028E05 /* HomeSB.storyboard */; };
 		46168A8E2229817100028E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46168A8D2229817100028E05 /* Assets.xcassets */; };
 		46168A912229817100028E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46168A8F2229817100028E05 /* LaunchScreen.storyboard */; };
 		46168A9C2229817100028E05 /* MobileNOCSpikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46168A9B2229817100028E05 /* MobileNOCSpikeTests.swift */; };
 		46168AA72229817100028E05 /* MobileNOCSpikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46168AA62229817100028E05 /* MobileNOCSpikeUITests.swift */; };
+		46D58D2422298B0200D19288 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D58D2322298B0200D19288 /* RequestManager.swift */; };
+		46D58D2622298B3D00D19288 /* DefaultResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D58D2522298B3D00D19288 /* DefaultResponse.swift */; };
+		46D58D2822298B7900D19288 /* URLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D58D2722298B7900D19288 /* URLS.swift */; };
+		46D58D2A22298BA900D19288 /* RequestComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D58D2922298BA900D19288 /* RequestComponent.swift */; };
+		46D58D2C22298BFE00D19288 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D58D2B22298BFE00D19288 /* Pagination.swift */; };
+		46D58D2E22298C1A00D19288 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D58D2D22298C1A00D19288 /* Media.swift */; };
+		46D58D3322298DCF00D19288 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D58D3222298DCF00D19288 /* Constants.swift */; };
+		46D58D3522298E0800D19288 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D58D3422298E0800D19288 /* Defaults.swift */; };
+		46D58D3722298E2B00D19288 /* Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D58D3622298E2B00D19288 /* Initializer.swift */; };
+		46D58D3922298E6C00D19288 /* StoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D58D3822298E6C00D19288 /* StoryBoard.swift */; };
+		46D58D3C22298EA900D19288 /* ExtensionForLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D58D3B22298EA900D19288 /* ExtensionForLoadingView.swift */; };
+		46D58D4022298F1600D19288 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D58D3F22298F1600D19288 /* LoadingView.swift */; };
+		46D58D4222298F4600D19288 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46D58D4122298F4600D19288 /* LoadingView.xib */; };
 		571800E170D94649AC29938D /* Pods_MobileNOCSpikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF2EC04467F1139FFECC8EF /* Pods_MobileNOCSpikeTests.framework */; };
 		C7B6A9B1E126F79559EEDC40 /* Pods_MobileNOCSpike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0861569A3CF266414A73C958 /* Pods_MobileNOCSpike.framework */; };
 		D803B77B49EF2FA821BFDB5D /* Pods_MobileNOCSpikeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A0E708C9CCC449CB856C28 /* Pods_MobileNOCSpikeUITests.framework */; };
@@ -41,8 +54,8 @@
 		30A0E708C9CCC449CB856C28 /* Pods_MobileNOCSpikeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileNOCSpikeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46168A832229816400028E05 /* MobileNOCSpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileNOCSpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46168A862229816400028E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		46168A882229816400028E05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46168A8B2229816400028E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46168A882229816400028E05 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		46168A8B2229816400028E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HomeSB.storyboard; sourceTree = "<group>"; };
 		46168A8D2229817100028E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46168A902229817100028E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46168A922229817100028E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +65,19 @@
 		46168AA22229817100028E05 /* MobileNOCSpikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileNOCSpikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46168AA62229817100028E05 /* MobileNOCSpikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNOCSpikeUITests.swift; sourceTree = "<group>"; };
 		46168AA82229817100028E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D58D2322298B0200D19288 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		46D58D2522298B3D00D19288 /* DefaultResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultResponse.swift; sourceTree = "<group>"; };
+		46D58D2722298B7900D19288 /* URLS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLS.swift; sourceTree = "<group>"; };
+		46D58D2922298BA900D19288 /* RequestComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestComponent.swift; sourceTree = "<group>"; };
+		46D58D2B22298BFE00D19288 /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		46D58D2D22298C1A00D19288 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		46D58D3222298DCF00D19288 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		46D58D3422298E0800D19288 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		46D58D3622298E2B00D19288 /* Initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializer.swift; sourceTree = "<group>"; };
+		46D58D3822298E6C00D19288 /* StoryBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoard.swift; sourceTree = "<group>"; };
+		46D58D3B22298EA900D19288 /* ExtensionForLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionForLoadingView.swift; sourceTree = "<group>"; };
+		46D58D3F22298F1600D19288 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		46D58D4122298F4600D19288 /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 		54454CB72C4D639A1D366E0E /* Pods-MobileNOCSpike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileNOCSpike.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileNOCSpike/Pods-MobileNOCSpike.release.xcconfig"; sourceTree = "<group>"; };
 		60E55BC7A061B2E376AE5248 /* Pods-MobileNOCSpike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileNOCSpike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileNOCSpike/Pods-MobileNOCSpike.debug.xcconfig"; sourceTree = "<group>"; };
 		7B0BF1264D4097DABADBAF8E /* Pods-MobileNOCSpikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileNOCSpikeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileNOCSpikeTests/Pods-MobileNOCSpikeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,12 +140,8 @@
 		46168A852229816400028E05 /* MobileNOCSpike */ = {
 			isa = PBXGroup;
 			children = (
-				46168A862229816400028E05 /* AppDelegate.swift */,
-				46168A882229816400028E05 /* ViewController.swift */,
-				46168A8A2229816400028E05 /* Main.storyboard */,
-				46168A8D2229817100028E05 /* Assets.xcassets */,
-				46168A8F2229817100028E05 /* LaunchScreen.storyboard */,
-				46168A922229817100028E05 /* Info.plist */,
+				46D58D1A22298A4700D19288 /* Global */,
+				46D58D1B22298A5D00D19288 /* MobileNOCSpike */,
 			);
 			path = MobileNOCSpike;
 			sourceTree = "<group>";
@@ -140,6 +162,127 @@
 				46168AA82229817100028E05 /* Info.plist */,
 			);
 			path = MobileNOCSpikeUITests;
+			sourceTree = "<group>";
+		};
+		46D58D1A22298A4700D19288 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				46D58D2122298AAD00D19288 /* SupportingFiles */,
+				46D58D2F22298D6500D19288 /* Helper */,
+				46D58D3022298D7B00D19288 /* Extensions */,
+				46D58D2222298AC600D19288 /* NetworkLayer */,
+				46D58D3122298D9000D19288 /* Fonts */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		46D58D1B22298A5D00D19288 /* MobileNOCSpike */ = {
+			isa = PBXGroup;
+			children = (
+				46D58D1C22298A6C00D19288 /* Home */,
+			);
+			path = MobileNOCSpike;
+			sourceTree = "<group>";
+		};
+		46D58D1C22298A6C00D19288 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				46D58D2022298A9200D19288 /* Serivces */,
+				46D58D1F22298A8B00D19288 /* Controller */,
+				46D58D1E22298A8500D19288 /* View */,
+				46D58D1D22298A7400D19288 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		46D58D1D22298A7400D19288 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46D58D1E22298A8500D19288 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46168A8A2229816400028E05 /* HomeSB.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		46D58D1F22298A8B00D19288 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				46168A882229816400028E05 /* HomeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		46D58D2022298A9200D19288 /* Serivces */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Serivces;
+			sourceTree = "<group>";
+		};
+		46D58D2122298AAD00D19288 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				46168A862229816400028E05 /* AppDelegate.swift */,
+				46168A8D2229817100028E05 /* Assets.xcassets */,
+				46168A8F2229817100028E05 /* LaunchScreen.storyboard */,
+				46168A922229817100028E05 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		46D58D2222298AC600D19288 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				46D58D2322298B0200D19288 /* RequestManager.swift */,
+				46D58D2522298B3D00D19288 /* DefaultResponse.swift */,
+				46D58D2722298B7900D19288 /* URLS.swift */,
+				46D58D2922298BA900D19288 /* RequestComponent.swift */,
+				46D58D2B22298BFE00D19288 /* Pagination.swift */,
+				46D58D2D22298C1A00D19288 /* Media.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		46D58D2F22298D6500D19288 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				46D58D3A22298E7F00D19288 /* Loading */,
+				46D58D3222298DCF00D19288 /* Constants.swift */,
+				46D58D3422298E0800D19288 /* Defaults.swift */,
+				46D58D3622298E2B00D19288 /* Initializer.swift */,
+				46D58D3822298E6C00D19288 /* StoryBoard.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		46D58D3022298D7B00D19288 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		46D58D3122298D9000D19288 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		46D58D3A22298E7F00D19288 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				46D58D3B22298EA900D19288 /* ExtensionForLoadingView.swift */,
+				46D58D3F22298F1600D19288 /* LoadingView.swift */,
+				46D58D4122298F4600D19288 /* LoadingView.xib */,
+			);
+			path = Loading;
 			sourceTree = "<group>";
 		};
 		D3E3DAD94F76C5E53D4880AD /* Frameworks */ = {
@@ -274,8 +417,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				46168A912229817100028E05 /* LaunchScreen.storyboard in Resources */,
+				46D58D4222298F4600D19288 /* LoadingView.xib in Resources */,
 				46168A8E2229817100028E05 /* Assets.xcassets in Resources */,
-				46168A8C2229816400028E05 /* Main.storyboard in Resources */,
+				46168A8C2229816400028E05 /* HomeSB.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,8 +535,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46168A892229816400028E05 /* ViewController.swift in Sources */,
+				46D58D3722298E2B00D19288 /* Initializer.swift in Sources */,
+				46D58D2822298B7900D19288 /* URLS.swift in Sources */,
+				46D58D2622298B3D00D19288 /* DefaultResponse.swift in Sources */,
+				46D58D2422298B0200D19288 /* RequestManager.swift in Sources */,
+				46D58D3922298E6C00D19288 /* StoryBoard.swift in Sources */,
+				46D58D4022298F1600D19288 /* LoadingView.swift in Sources */,
+				46D58D2C22298BFE00D19288 /* Pagination.swift in Sources */,
+				46168A892229816400028E05 /* HomeVC.swift in Sources */,
 				46168A872229816400028E05 /* AppDelegate.swift in Sources */,
+				46D58D2E22298C1A00D19288 /* Media.swift in Sources */,
+				46D58D3C22298EA900D19288 /* ExtensionForLoadingView.swift in Sources */,
+				46D58D3522298E0800D19288 /* Defaults.swift in Sources */,
+				46D58D2A22298BA900D19288 /* RequestComponent.swift in Sources */,
+				46D58D3322298DCF00D19288 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,12 +584,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		46168A8A2229816400028E05 /* Main.storyboard */ = {
+		46168A8A2229816400028E05 /* HomeSB.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				46168A8B2229816400028E05 /* Base */,
 			);
-			name = Main.storyboard;
+			name = HomeSB.storyboard;
 			sourceTree = "<group>";
 		};
 		46168A8F2229817100028E05 /* LaunchScreen.storyboard */ = {
@@ -570,7 +726,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YA4F6ZP59;
-				INFOPLIST_FILE = MobileNOCSpike/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MobileNOCSpike/Global/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -589,7 +745,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5YA4F6ZP59;
-				INFOPLIST_FILE = MobileNOCSpike/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MobileNOCSpike/Global/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
