@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46168A872229816400028E05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46168A862229816400028E05 /* AppDelegate.swift */; };
+		46168A892229816400028E05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46168A882229816400028E05 /* ViewController.swift */; };
+		46168A8C2229816400028E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46168A8A2229816400028E05 /* Main.storyboard */; };
+		46168A8E2229817100028E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46168A8D2229817100028E05 /* Assets.xcassets */; };
+		46168A912229817100028E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46168A8F2229817100028E05 /* LaunchScreen.storyboard */; };
+		46168A9C2229817100028E05 /* MobileNOCSpikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46168A9B2229817100028E05 /* MobileNOCSpikeTests.swift */; };
+		46168AA72229817100028E05 /* MobileNOCSpikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46168AA62229817100028E05 /* MobileNOCSpikeUITests.swift */; };
+		571800E170D94649AC29938D /* Pods_MobileNOCSpikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF2EC04467F1139FFECC8EF /* Pods_MobileNOCSpikeTests.framework */; };
+		C7B6A9B1E126F79559EEDC40 /* Pods_MobileNOCSpike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0861569A3CF266414A73C958 /* Pods_MobileNOCSpike.framework */; };
+		D803B77B49EF2FA821BFDB5D /* Pods_MobileNOCSpikeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A0E708C9CCC449CB856C28 /* Pods_MobileNOCSpikeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46168A982229817100028E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46168A7B2229816400028E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46168A822229816400028E05;
+			remoteInfo = MobileNOCSpike;
+		};
+		46168AA32229817100028E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46168A7B2229816400028E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46168A822229816400028E05;
+			remoteInfo = MobileNOCSpike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0861569A3CF266414A73C958 /* Pods_MobileNOCSpike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileNOCSpike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A0E708C9CCC449CB856C28 /* Pods_MobileNOCSpikeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileNOCSpikeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46168A832229816400028E05 /* MobileNOCSpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileNOCSpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46168A862229816400028E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46168A882229816400028E05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46168A8B2229816400028E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46168A8D2229817100028E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46168A902229817100028E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46168A922229817100028E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46168A972229817100028E05 /* MobileNOCSpikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileNOCSpikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46168A9B2229817100028E05 /* MobileNOCSpikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNOCSpikeTests.swift; sourceTree = "<group>"; };
+		46168A9D2229817100028E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46168AA22229817100028E05 /* MobileNOCSpikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileNOCSpikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46168AA62229817100028E05 /* MobileNOCSpikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNOCSpikeUITests.swift; sourceTree = "<group>"; };
+		46168AA82229817100028E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54454CB72C4D639A1D366E0E /* Pods-MobileNOCSpike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileNOCSpike.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileNOCSpike/Pods-MobileNOCSpike.release.xcconfig"; sourceTree = "<group>"; };
+		60E55BC7A061B2E376AE5248 /* Pods-MobileNOCSpike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileNOCSpike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileNOCSpike/Pods-MobileNOCSpike.debug.xcconfig"; sourceTree = "<group>"; };
+		7B0BF1264D4097DABADBAF8E /* Pods-MobileNOCSpikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileNOCSpikeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileNOCSpikeTests/Pods-MobileNOCSpikeTests.release.xcconfig"; sourceTree = "<group>"; };
+		7CF2EC04467F1139FFECC8EF /* Pods_MobileNOCSpikeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileNOCSpikeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E0F94CB4CBD4E08526969E /* Pods-MobileNOCSpikeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileNOCSpikeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileNOCSpikeUITests/Pods-MobileNOCSpikeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BCBAA4A1D4D2947C7430BDC6 /* Pods-MobileNOCSpikeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileNOCSpikeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileNOCSpikeUITests/Pods-MobileNOCSpikeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFDB24D537E2FA77E919CDA7 /* Pods-MobileNOCSpikeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileNOCSpikeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileNOCSpikeTests/Pods-MobileNOCSpikeTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46168A802229816400028E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B6A9B1E126F79559EEDC40 /* Pods_MobileNOCSpike.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46168A942229817100028E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571800E170D94649AC29938D /* Pods_MobileNOCSpikeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46168A9F2229817100028E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D803B77B49EF2FA821BFDB5D /* Pods_MobileNOCSpikeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46168A7A2229816400028E05 = {
+			isa = PBXGroup;
+			children = (
+				46168A852229816400028E05 /* MobileNOCSpike */,
+				46168A9A2229817100028E05 /* MobileNOCSpikeTests */,
+				46168AA52229817100028E05 /* MobileNOCSpikeUITests */,
+				46168A842229816400028E05 /* Products */,
+				FB1DBC6BE1971F9BBE525972 /* Pods */,
+				D3E3DAD94F76C5E53D4880AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		46168A842229816400028E05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46168A832229816400028E05 /* MobileNOCSpike.app */,
+				46168A972229817100028E05 /* MobileNOCSpikeTests.xctest */,
+				46168AA22229817100028E05 /* MobileNOCSpikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46168A852229816400028E05 /* MobileNOCSpike */ = {
+			isa = PBXGroup;
+			children = (
+				46168A862229816400028E05 /* AppDelegate.swift */,
+				46168A882229816400028E05 /* ViewController.swift */,
+				46168A8A2229816400028E05 /* Main.storyboard */,
+				46168A8D2229817100028E05 /* Assets.xcassets */,
+				46168A8F2229817100028E05 /* LaunchScreen.storyboard */,
+				46168A922229817100028E05 /* Info.plist */,
+			);
+			path = MobileNOCSpike;
+			sourceTree = "<group>";
+		};
+		46168A9A2229817100028E05 /* MobileNOCSpikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				46168A9B2229817100028E05 /* MobileNOCSpikeTests.swift */,
+				46168A9D2229817100028E05 /* Info.plist */,
+			);
+			path = MobileNOCSpikeTests;
+			sourceTree = "<group>";
+		};
+		46168AA52229817100028E05 /* MobileNOCSpikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46168AA62229817100028E05 /* MobileNOCSpikeUITests.swift */,
+				46168AA82229817100028E05 /* Info.plist */,
+			);
+			path = MobileNOCSpikeUITests;
+			sourceTree = "<group>";
+		};
+		D3E3DAD94F76C5E53D4880AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0861569A3CF266414A73C958 /* Pods_MobileNOCSpike.framework */,
+				7CF2EC04467F1139FFECC8EF /* Pods_MobileNOCSpikeTests.framework */,
+				30A0E708C9CCC449CB856C28 /* Pods_MobileNOCSpikeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB1DBC6BE1971F9BBE525972 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60E55BC7A061B2E376AE5248 /* Pods-MobileNOCSpike.debug.xcconfig */,
+				54454CB72C4D639A1D366E0E /* Pods-MobileNOCSpike.release.xcconfig */,
+				FFDB24D537E2FA77E919CDA7 /* Pods-MobileNOCSpikeTests.debug.xcconfig */,
+				7B0BF1264D4097DABADBAF8E /* Pods-MobileNOCSpikeTests.release.xcconfig */,
+				BCBAA4A1D4D2947C7430BDC6 /* Pods-MobileNOCSpikeUITests.debug.xcconfig */,
+				A4E0F94CB4CBD4E08526969E /* Pods-MobileNOCSpikeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46168A822229816400028E05 /* MobileNOCSpike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46168AAB2229817100028E05 /* Build configuration list for PBXNativeTarget "MobileNOCSpike" */;
+			buildPhases = (
+				B3EEF08D2DD70FBB6A887419 /* [CP] Check Pods Manifest.lock */,
+				46168A7F2229816400028E05 /* Sources */,
+				46168A802229816400028E05 /* Frameworks */,
+				46168A812229816400028E05 /* Resources */,
+				FAE04B5742A562DB13BB6127 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileNOCSpike;
+			productName = MobileNOCSpike;
+			productReference = 46168A832229816400028E05 /* MobileNOCSpike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46168A962229817100028E05 /* MobileNOCSpikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46168AAE2229817100028E05 /* Build configuration list for PBXNativeTarget "MobileNOCSpikeTests" */;
+			buildPhases = (
+				1B9124ABEC9EEE5562C01E22 /* [CP] Check Pods Manifest.lock */,
+				46168A932229817100028E05 /* Sources */,
+				46168A942229817100028E05 /* Frameworks */,
+				46168A952229817100028E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46168A992229817100028E05 /* PBXTargetDependency */,
+			);
+			name = MobileNOCSpikeTests;
+			productName = MobileNOCSpikeTests;
+			productReference = 46168A972229817100028E05 /* MobileNOCSpikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46168AA12229817100028E05 /* MobileNOCSpikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46168AB12229817100028E05 /* Build configuration list for PBXNativeTarget "MobileNOCSpikeUITests" */;
+			buildPhases = (
+				6EE177D1229306A1DE3A2FC1 /* [CP] Check Pods Manifest.lock */,
+				46168A9E2229817100028E05 /* Sources */,
+				46168A9F2229817100028E05 /* Frameworks */,
+				46168AA02229817100028E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46168AA42229817100028E05 /* PBXTargetDependency */,
+			);
+			name = MobileNOCSpikeUITests;
+			productName = MobileNOCSpikeUITests;
+			productReference = 46168AA22229817100028E05 /* MobileNOCSpikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46168A7B2229816400028E05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mohamed Kelany";
+				TargetAttributes = {
+					46168A822229816400028E05 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					46168A962229817100028E05 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 46168A822229816400028E05;
+					};
+					46168AA12229817100028E05 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 46168A822229816400028E05;
+					};
+				};
+			};
+			buildConfigurationList = 46168A7E2229816400028E05 /* Build configuration list for PBXProject "MobileNOCSpike" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46168A7A2229816400028E05;
+			productRefGroup = 46168A842229816400028E05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46168A822229816400028E05 /* MobileNOCSpike */,
+				46168A962229817100028E05 /* MobileNOCSpikeTests */,
+				46168AA12229817100028E05 /* MobileNOCSpikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46168A812229816400028E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46168A912229817100028E05 /* LaunchScreen.storyboard in Resources */,
+				46168A8E2229817100028E05 /* Assets.xcassets in Resources */,
+				46168A8C2229816400028E05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46168A952229817100028E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46168AA02229817100028E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B9124ABEC9EEE5562C01E22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileNOCSpikeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EE177D1229306A1DE3A2FC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileNOCSpikeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3EEF08D2DD70FBB6A887419 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobileNOCSpike-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAE04B5742A562DB13BB6127 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MobileNOCSpike/Pods-MobileNOCSpike-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileNOCSpike/Pods-MobileNOCSpike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46168A7F2229816400028E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46168A892229816400028E05 /* ViewController.swift in Sources */,
+				46168A872229816400028E05 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46168A932229817100028E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46168A9C2229817100028E05 /* MobileNOCSpikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46168A9E2229817100028E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46168AA72229817100028E05 /* MobileNOCSpikeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46168A992229817100028E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46168A822229816400028E05 /* MobileNOCSpike */;
+			targetProxy = 46168A982229817100028E05 /* PBXContainerItemProxy */;
+		};
+		46168AA42229817100028E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46168A822229816400028E05 /* MobileNOCSpike */;
+			targetProxy = 46168AA32229817100028E05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46168A8A2229816400028E05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46168A8B2229816400028E05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46168A8F2229817100028E05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46168A902229817100028E05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46168AA92229817100028E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46168AAA2229817100028E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46168AAC2229817100028E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E55BC7A061B2E376AE5248 /* Pods-MobileNOCSpike.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YA4F6ZP59;
+				INFOPLIST_FILE = MobileNOCSpike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelany.MobileNOCSpike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46168AAD2229817100028E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54454CB72C4D639A1D366E0E /* Pods-MobileNOCSpike.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YA4F6ZP59;
+				INFOPLIST_FILE = MobileNOCSpike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelany.MobileNOCSpike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46168AAF2229817100028E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFDB24D537E2FA77E919CDA7 /* Pods-MobileNOCSpikeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YA4F6ZP59;
+				INFOPLIST_FILE = MobileNOCSpikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelany.MobileNOCSpikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileNOCSpike.app/MobileNOCSpike";
+			};
+			name = Debug;
+		};
+		46168AB02229817100028E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B0BF1264D4097DABADBAF8E /* Pods-MobileNOCSpikeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YA4F6ZP59;
+				INFOPLIST_FILE = MobileNOCSpikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelany.MobileNOCSpikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileNOCSpike.app/MobileNOCSpike";
+			};
+			name = Release;
+		};
+		46168AB22229817100028E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCBAA4A1D4D2947C7430BDC6 /* Pods-MobileNOCSpikeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YA4F6ZP59;
+				INFOPLIST_FILE = MobileNOCSpikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelany.MobileNOCSpikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileNOCSpike;
+			};
+			name = Debug;
+		};
+		46168AB32229817100028E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E0F94CB4CBD4E08526969E /* Pods-MobileNOCSpikeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YA4F6ZP59;
+				INFOPLIST_FILE = MobileNOCSpikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelany.MobileNOCSpikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileNOCSpike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46168A7E2229816400028E05 /* Build configuration list for PBXProject "MobileNOCSpike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46168AA92229817100028E05 /* Debug */,
+				46168AAA2229817100028E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46168AAB2229817100028E05 /* Build configuration list for PBXNativeTarget "MobileNOCSpike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46168AAC2229817100028E05 /* Debug */,
+				46168AAD2229817100028E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46168AAE2229817100028E05 /* Build configuration list for PBXNativeTarget "MobileNOCSpikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46168AAF2229817100028E05 /* Debug */,
+				46168AB02229817100028E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46168AB12229817100028E05 /* Build configuration list for PBXNativeTarget "MobileNOCSpikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46168AB22229817100028E05 /* Debug */,
+				46168AB32229817100028E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46168A7B2229816400028E05 /* Project object */;
+}

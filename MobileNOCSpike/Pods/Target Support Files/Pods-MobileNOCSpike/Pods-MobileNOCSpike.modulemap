@@ -1,0 +1,6 @@
+framework module Pods_MobileNOCSpike {
+  umbrella header "Pods-MobileNOCSpike-umbrella.h"
+
+  export *
+  module * { export * }
+}
