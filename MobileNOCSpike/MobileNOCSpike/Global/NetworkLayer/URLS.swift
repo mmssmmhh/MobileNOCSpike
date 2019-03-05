@@ -9,6 +9,7 @@
 import Foundation
 
 class URLs{
-    static let base = "http://192.81.221.63"
+    static let base = "http://www.mocky.io/v2/"
+    static let Home = "5c5c46f13900005a18e05b90"
 }
 

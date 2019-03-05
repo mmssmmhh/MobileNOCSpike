@@ -8,8 +8,8 @@
 
 import Foundation
 
-struct DefaultResponse: Decodable {
+class DefaultResponse{
     // TODO
-    
+    static let responseText = "undefined"
 }
 

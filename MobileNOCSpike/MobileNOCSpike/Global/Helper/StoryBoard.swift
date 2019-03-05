@@ -10,6 +10,6 @@ import Foundation
 
 // all storyBoards names will be here
 enum StoryBoard: String {
-    case Home
+    case HomeSB
 }
 

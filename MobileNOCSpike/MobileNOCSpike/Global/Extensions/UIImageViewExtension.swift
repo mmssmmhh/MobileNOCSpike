@@ -6,4 +6,13 @@
 //  Copyright © 2019 Mohamed Kelany. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import Alamofire
+
+extension UIImageView {
+    func load(name: String) {
+        if let image = UIImage(named: name) {
+                self.image = image
+        }
+    }
+}

@@ -10,20 +10,24 @@ import UIKit
 
 
 @IBDesignable
-open class CustomTextField: UITextField {
+open class TextField: UITextField {
     
     
     let padding = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
     
     override open func textRect(forBounds bounds: CGRect) -> CGRect {
+      let rect = CGRect(x: bounds.origin.x + leftPadding + imageWidth , y: bounds.origin.y, width: bounds.width + rightWidth - rightPadding - imageWidth, height: bounds.height)
         
-        return UIEdgeInsetsInsetRect(CGRect(x: bounds.origin.x + leftPadding + imageWidth , y: bounds.origin.y, width: bounds.width + rightWidth - rightPadding - imageWidth, height: bounds.height), padding)
+        return rect.inset(by: padding)
     }
     
     
     override open func editingRect(forBounds bounds: CGRect) -> CGRect {
         
-        return UIEdgeInsetsInsetRect(CGRect(x: bounds.origin.x + leftPadding + imageWidth , y: bounds.origin.y, width: bounds.width + rightWidth - rightPadding - imageWidth, height: bounds.height), padding)
+        
+        let rect = CGRect(x: bounds.origin.x + leftPadding + imageWidth , y: bounds.origin.y, width: bounds.width + rightWidth - rightPadding - imageWidth, height: bounds.height)
+    
+        return rect.inset(by: padding)
     }
     
     // Provides left padding for images
@@ -126,7 +130,7 @@ open class CustomTextField: UITextField {
     }
 }
 
-class NoPasteUITextField: CustomTextField{
+class NoPasteUITextField: TextField{
     override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
         if action == #selector(UIResponderStandardEditActions.paste(_:)) { return false }
         return super.canPerformAction(action, withSender: sender)
